@@ -1,0 +1,370 @@
+[
+  {
+    "name": "関根　駿",
+    "grade": 4,
+    "department": "外国語学部フランス語学科",
+    "highSchool": "我孫子高等学校",
+    "position": "主将",
+    "message": "覇氣あるssdmに注目してください"
+  },
+  {
+    "name": "中村　栄輝",
+    "grade": 4,
+    "department": "経済学部経済学科",
+    "highSchool": "埼玉県立越谷南高等学校",
+    "position": "OFリーダー",
+    "message": "でか！でか！でか！"
+  },
+  {
+    "name": "若林　歩",
+    "grade": 4,
+    "department": "経済学部経済学科",
+    "highSchool": "新潟江南高等学校",
+    "position": "DFリーダー",
+    "message": "今年は大きくなります"
+  },
+  {
+    "name": "忍足　十輝郎",
+    "grade": 4,
+    "department": "経済学部経営学科",
+    "highSchool": "獨協高等学校",
+    "position": "MF",
+    "message": "獨協魂"
+  },
+  {
+    "name": "木下　和樹",
+    "grade": 4,
+    "department": "法学部法律学科",
+    "highSchool": "大宮開成高校",
+    "position": "G",
+    "message": "全てを止める"
+  },
+  {
+    "name": "竹林　湧真",
+    "grade": 4,
+    "department": "法学部法律学科",
+    "highSchool": "千葉経済大学附属高等学校",
+    "position": "LDF",
+    "message": "最底辺から上り詰めます"
+  },
+  {
+    "name": "桃澤　快翔",
+    "grade": 4,
+    "department": "経済学部経済学科",
+    "highSchool": "松本美須々ヶ丘高等学校",
+    "position": "AT",
+    "message": "ラストシーズンまくります"
+  },
+  {
+    "name": "江刺　莉音",
+    "grade": 4,
+    "department": "経済学部経営学科",
+    "highSchool": "東京成徳大学高校",
+    "position": "MGリーダー",
+    "message": "勝ちに貢献します！"
+  },
+  {
+    "name": "岡　茅咲",
+    "grade": 4,
+    "department": "経済学部国際経済学科",
+    "highSchool": "川口高校",
+    "position": "TRリーダー",
+    "message": "ラスト1年全力尽くします"
+  },
+  {
+    "name": "中村　心結",
+    "grade": 4,
+    "department": "経済学部国際経済学科",
+    "highSchool": "草加東高校",
+    "position": "MG",
+    "message": "日々成長"
+  },
+  {
+    "name": "伊勢　大翔",
+    "grade": 3,
+    "department": "経済学部経済学科",
+    "highSchool": "昌平高校",
+    "position": "副主将",
+    "message": "闘将系ラクロッサー"
+  },
+  {
+    "name": "大久保　研人",
+    "grade": 3,
+    "department": "外国語学部交流文化学科",
+    "highSchool": "大宮南高校",
+    "position": "G",
+    "message": "ひろきちを超える"
+  },
+  {
+    "name": "小田　悠斗",
+    "grade": 3,
+    "department": "法学部総合政策学科",
+    "highSchool": "佼成学園高校",
+    "position": "LDF",
+    "message": "ギラつき"
+  },
+  {
+    "name": "川上　翔太",
+    "grade": 3,
+    "department": "経済学部経済学科",
+    "highSchool": "関東第一高校",
+    "position": "MF",
+    "message": "この世で一番闘将になります！"
+  },
+  {
+    "name": "橘髙　陽",
+    "grade": 3,
+    "department": "外国語学部英語学科",
+    "highSchool": "市立函館高校",
+    "position": "AT",
+    "message": "チビでも関係ないです。"
+  },
+  {
+    "name": "倉本　竜誠",
+    "grade": 3,
+    "department": "経済学部経済学科",
+    "highSchool": "佼成学園高校",
+    "position": "MF",
+    "message": "メンタルメンタル！"
+  },
+  {
+    "name": "庄司　直輝",
+    "grade": 3,
+    "department": "経済学部経済学科",
+    "highSchool": "北見北斗高校",
+    "position": "MF",
+    "message": "俺に任せろ"
+  },
+  {
+    "name": "谷口　俊輔",
+    "grade": 3,
+    "department": "経済学部経済学科",
+    "highSchool": "埼玉県立春日部東高校",
+    "position": "AT",
+    "message": "チームに貢献します"
+  },
+  {
+    "name": "岡野　桃奈",
+    "grade": 3,
+    "department": "法学部総合政策学科",
+    "highSchool": "水海道第一高等学校",
+    "position": "MG",
+    "message": "元気に頑張ります♪"
+  },
+  {
+    "name": "面来　咲羽",
+    "grade": 3,
+    "department": "外国語学部交流文化学科",
+    "highSchool": "獨協埼玉高等学校",
+    "position": "MG",
+    "message": "チームのために全力でサポートします！"
+  },
+  {
+    "name": "佐藤　香春",
+    "grade": 3,
+    "department": "外国語学部交流文化学科",
+    "highSchool": "獨協埼玉高等学校",
+    "position": "MG",
+    "message": "自分らしく頑張ります！"
+  },
+  {
+    "name": "清水　さくら",
+    "grade": 3,
+    "department": "経済学部経営学科",
+    "highSchool": "川口高校",
+    "position": "MG",
+    "message": "チームに必要とされる存在になります！"
+  },
+  {
+    "name": "池上　暖人",
+    "grade": 2,
+    "department": "外国語学部ドイツ語学科",
+    "highSchool": "International school Augsburg",
+    "position": "SSDM",
+    "message": "Einfach Stärker werden"
+  },
+  {
+    "name": "榎本　慎太",
+    "grade": 2,
+    "department": "経済学部経済学科",
+    "highSchool": "東亜学園高等学校",
+    "position": "LDF",
+    "message": "下剋上します！"
+  },
+  {
+    "name": "海老原　周真",
+    "grade": 2,
+    "department": "経済学部経営学科",
+    "highSchool": "千葉英和高校",
+    "position": "MF",
+    "message": "必死にプレーします！"
+  },
+  {
+    "name": "大場　悠斗",
+    "grade": 2,
+    "department": "法学部総合政策学科",
+    "highSchool": "都立城東高校",
+    "position": "MF",
+    "message": "覇氣を身に纏います"
+  },
+  {
+    "name": "小作　春翔",
+    "grade": 2,
+    "department": "外国語学部英語学科",
+    "highSchool": "日本大学高等学校",
+    "position": "AT",
+    "message": "No Lacrosse No Life"
+  },
+  {
+    "name": "柏原　鷹之介",
+    "grade": 2,
+    "department": "経済学部国際経済学科",
+    "highSchool": "千葉県立八千代高等学校",
+    "position": "AT",
+    "message": "和以征技"
+  },
+  {
+    "name": "神山　佳汰",
+    "grade": 2,
+    "department": "法学部法律学科",
+    "highSchool": "正則高校",
+    "position": "G",
+    "message": "死ぬ気でセーブします"
+  },
+  {
+    "name": "北見　乃亜",
+    "grade": 2,
+    "department": "外国語学部交流文化学科",
+    "highSchool": "城西大学附属城西高等学校",
+    "position": "LDF",
+    "message": "僕が湧かせます。"
+  },
+  {
+    "name": "小西　海生",
+    "grade": 2,
+    "department": "法学部国際関係法学科",
+    "highSchool": "佼成学園高校",
+    "position": "SSDM/FO",
+    "message": "二刀流極めます"
+  },
+  {
+    "name": "櫻井　直人",
+    "grade": 2,
+    "department": "外国語学部ドイツ語学科",
+    "highSchool": "千早高校",
+    "position": "LDF",
+    "message": "邁進してまいります"
+  },
+  {
+    "name": "立川　大輔",
+    "grade": 2,
+    "department": "経済学部経営学科",
+    "highSchool": "新潟明訓高等学校",
+    "position": "LDF",
+    "message": "マグマのような情熱でチームを盛り上げます！"
+  },
+  {
+    "name": "種本　櫂",
+    "grade": 2,
+    "department": "法学部法律学科",
+    "highSchool": "足立学園高校",
+    "position": "SSDM",
+    "message": "覇氣出す4年間にします！"
+  },
+  {
+    "name": "佃　祐誠",
+    "grade": 2,
+    "department": "外国語学部交流文化学科",
+    "highSchool": "成立学園高校",
+    "position": "FO",
+    "message": "ブレイクします"
+  },
+  {
+    "name": "中村　伊吹",
+    "grade": 2,
+    "department": "外国語学部交流文化学科",
+    "highSchool": "千葉明徳高等学校",
+    "position": "MF",
+    "message": "1発カマします"
+  },
+  {
+    "name": "原嶋　優輝",
+    "grade": 2,
+    "department": "法学部法律学科",
+    "highSchool": "埼玉県立伊奈学園総合高校",
+    "position": "MF",
+    "message": "ビビりません！"
+  },
+  {
+    "name": "菖蒲　琴音",
+    "grade": 2,
+    "department": "外国語学部ドイツ語学科",
+    "highSchool": "致道館高校",
+    "position": "TR",
+    "message": "精一杯頑張ります"
+  },
+  {
+    "name": "古村　葵",
+    "grade": 2,
+    "department": "経済学部経営学科",
+    "highSchool": "北見北斗高校",
+    "position": "MG",
+    "message": "力になれるように頑張ります！"
+  },
+  {
+    "name": "佐久間　唯",
+    "grade": 2,
+    "department": "外国語学部英語学科",
+    "highSchool": "柏の葉高校",
+    "position": "MG",
+    "message": "全力尽くして頑張ります！"
+  },
+  {
+    "name": "杉浦　瑠璃",
+    "grade": 2,
+    "department": "外国語学部ドイツ語学科",
+    "highSchool": "跡見学園高等学校",
+    "position": "AS",
+    "message": "責任持って頑張ります"
+  },
+  {
+    "name": "高橋　舞圭",
+    "grade": 2,
+    "department": "外国語学部交流文化学科",
+    "highSchool": "流山おおたかの森高校",
+    "position": "TR",
+    "message": "チームのために全力を尽くします。"
+  },
+  {
+    "name": "村田　絢香",
+    "grade": 2,
+    "department": "法学部法律学科",
+    "highSchool": "開智中学高等学校",
+    "position": "MG",
+    "message": "MGとしてチームを支えます！"
+  },
+  {
+    "name": "福田　莉久",
+    "grade": 2,
+    "department": "経済学部経済学科",
+    "highSchool": "鹿沼東高校",
+    "position": "AS",
+    "message": "常に全力尽くします"
+  },
+  {
+    "name": "結城　愛恵",
+    "grade": 2,
+    "department": "国際教養学部言語文化学科",
+    "highSchool": "旭川西高校",
+    "position": "TR",
+    "message": "最高の学生TRを目指します！"
+  },
+  {
+    "name": "吉田　郁香",
+    "grade": 2,
+    "department": "経済学部国際環境経済学部",
+    "highSchool": "松本県ヶ丘高校",
+    "position": "TR",
+    "message": "信頼されるTRになります！！"
+  }
+]

@@ -1,0 +1,108 @@
+.hero {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #2e004f, #0f0518);
+    text-align: center;
+    padding-top: 80px;
+}
+
+.heroTitle {
+    font-size: 4rem;
+    font-family: var(--font-oswald);
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+.section {
+    padding: 6rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-family: var(--font-oswald);
+    color: var(--color-accent);
+}
+
+.philosophyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.kanjiMain {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 20px rgba(78, 0, 142, 0.8);
+    font-family: "Yu Mincho", serif;
+    /* Fallback to standard serif for Japanese calligraphic feel if custom font not loaded */
+}
+
+.philosophyDesc {
+    max-width: 600px;
+    line-height: 1.8;
+    color: #ccc;
+}
+
+.sloganContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(circle at center, rgba(78, 0, 142, 0.2), transparent 70%);
+    padding: 4rem 1rem;
+}
+
+.messageGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.messageCard {
+    background: rgba(255, 255, 255, 0.02);
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.messageRole {
+    font-family: var(--font-oswald);
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.messageName {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+}
+
+.messageBody {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #bbb;
+}
+
+.originContent {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.originText {
+    font-size: 1.1rem;
+    line-height: 2;
+    color: #ddd;
+}

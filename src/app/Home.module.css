@@ -1,0 +1,140 @@
+.section {
+    padding: 6rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.sectionTitle {
+    font-size: 3rem;
+    font-family: var(--font-oswald);
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+
+.sectionTitle span {
+    color: var(--color-accent);
+}
+
+/* TOPICS */
+.topicsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.topicCard {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.topicCard:hover {
+    transform: translateY(-5px);
+    border-color: var(--color-accent);
+}
+
+.topicImage {
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+    /* Placeholder color */
+    object-fit: cover;
+}
+
+.topicContent {
+    padding: 1.5rem;
+}
+
+.topicDate {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+}
+
+.topicTitle {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.topicTag {
+    display: inline-block;
+    font-size: 0.75rem;
+    background: var(--color-primary);
+    padding: 0.2rem 0.5rem;
+    border-radius: 2px;
+}
+
+/* CONCEPT */
+.conceptSection {
+    padding: 10rem 1rem;
+    background: fixed linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://placehold.co/1920x1080/4e008e/000?text=HAKI') center/cover;
+    text-align: center;
+    position: relative;
+}
+
+.conceptText {
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    pointer-events: none;
+    font-family: var(--font-oswald);
+}
+
+.conceptMain {
+    position: relative;
+    z-index: 2;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+/* SNS */
+.snsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.snsCard {
+    display: block;
+    padding: 2rem;
+    border-radius: 12px;
+    color: #fff;
+    transition: transform 0.2s, opacity 0.2s;
+    text-decoration: none;
+}
+
+.snsCard:hover {
+    transform: translateY(-5px);
+    opacity: 0.9;
+}
+
+.snsCard h3 {
+    font-family: var(--font-oswald);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.snsCard p {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .snsGrid {
+        grid-template-columns: 1fr;
+    }
+}

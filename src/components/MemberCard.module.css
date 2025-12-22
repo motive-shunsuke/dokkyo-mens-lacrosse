@@ -1,0 +1,54 @@
+.card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.2s, background 0.2s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.06);
+    border-color: var(--color-accent);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.name {
+    font-family: var(--font-oswald);
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.position {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--color-accent);
+    background: rgba(251, 191, 36, 0.1);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.info {
+    font-size: 0.85rem;
+    color: #aaa;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.message {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #ddd;
+    font-style: italic;
+    padding-top: 1rem;
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+}
