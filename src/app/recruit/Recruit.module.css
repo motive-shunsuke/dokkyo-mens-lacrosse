@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('https://placehold.co/1920x1080/1a0b2e/fbbf24?text=RECRUITING') no-repeat center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('/images/recruit-bg.jpg') no-repeat center/cover;
     /* Use local asset later */
     text-align: center;
 }

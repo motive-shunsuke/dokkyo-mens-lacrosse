@@ -18,7 +18,7 @@ export default function Home() {
               { date: '2025.11.01', title: '【新入生向け】体験会の日程が決まりました', tag: 'RECRUIT' },
             ].map((topic, i) => (
               <Link href="/blog" key={i} className={styles.topicCard}>
-                <div className={styles.topicImage} style={{ background: `url(https://placehold.co/600x400/2e004f/fff?text=TOPIC+${i + 1}) center/cover` }} />
+                <div className={styles.topicImage} style={{ background: `url(/images/topic-${i + 1}.jpg) center/cover` }} />
                 <div className={styles.topicContent}>
                   <div className={styles.topicDate}>{topic.date}</div>
                   <h3 className={styles.topicTitle}>{topic.title}</h3>

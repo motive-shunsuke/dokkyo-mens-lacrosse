@@ -73,7 +73,7 @@
 /* CONCEPT */
 .conceptSection {
     padding: 10rem 1rem;
-    background: fixed linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://placehold.co/1920x1080/4e008e/000?text=HAKI') center/cover;
+    background: fixed linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/concept-bg.jpg') center/cover;
     text-align: center;
     position: relative;
 }
