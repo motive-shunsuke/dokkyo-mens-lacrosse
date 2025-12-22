@@ -35,50 +35,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CONCEPT PARALLAX */}
+      {/* CONCEPT - OUR PHILOSOPHY */}
       <section className={styles.conceptSection}>
-        <div className={styles.conceptText}>覇氣</div>
-        <div className={styles.conceptMain}>
-          圧倒する、空気を変える、<br />
-          強い主体性を持つ。
-        </div>
-      </section>
-
-      {/* IMPACT DATA */}
-      <section className={styles.impactSection}>
-        <div className="container">
-          <h2 className={styles.sectionTitle} style={{ marginBottom: '1rem' }}>TEAM <span>IMPACT</span></h2>
-          <p style={{ color: '#aaa' }}>数字で見る獨協ラクロス</p>
-          <div className={styles.impactGrid}>
-            <div className={styles.statItem}>
-              <div className={styles.statNumber}>160<span style={{ fontSize: '2rem' }}>km/h</span></div>
-              <span className={styles.statLabel}>MAX SHOT SPEED</span>
-            </div>
-            <div className={styles.statItem}>
-              <div className={styles.statNumber}>80<span style={{ fontSize: '2rem' }}>+</span></div>
-              <span className={styles.statLabel}>MEMBERS</span>
-            </div>
-            <div className={styles.statItem}>
-              <div className={styles.statNumber}>33<span style={{ fontSize: '2rem' }}>th</span></div>
-              <span className={styles.statLabel}>SINCE 1992</span>
-            </div>
+        <div className="container" style={{ maxWidth: '1000px', textAlign: 'center' }}>
+          <h2 className={styles.sectionTitle} style={{ marginBottom: '3rem' }}>OUR <span>PHILOSOPHY</span></h2>
+          <div className={styles.conceptText}>覇氣</div>
+          <div className={styles.conceptMain} style={{ marginBottom: '2rem' }}>
+            圧倒する、空気を変える、強い主体性を持つ。
           </div>
-        </div>
-      </section>
-
-      {/* MOOD / SHORT MOVIES */}
-      <section className={styles.moodSection}>
-        <div className="container">
-          <h2 className={styles.sectionTitle}>TEAM <span>MOOD</span></h2>
-          <div className={styles.videoGrid}>
-            {[1, 2, 3, 4].map((i) => (
-              <div key={i} className={styles.videoCard}>
-                <div className={styles.videoPlaceholder}>
-                  MOVIE {i}<br />(COMING SOON)
-                </div>
-              </div>
-            ))}
-          </div>
+          <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#ccc', maxWidth: '800px', margin: '0 auto' }}>
+            私たちは「覇氣」をスローガンに掲げ、フィールド内外で圧倒的な存在感を示します。<br />
+            試合では相手を圧倒し、チームの空気を変え、一人ひとりが強い主体性を持って行動する。<br />
+            それが獨協大学男子ラクロス部BLITZの誇りです。
+          </p>
         </div>
       </section>
 
@@ -93,12 +62,12 @@ export default function Home() {
               <p>@dokkyomlax</p>
             </a>
             {/* Twitter (X) */}
-            <a href="https://x.com/dokkyo_men_lax?s=21&t=PdKSOHTH7r38zAycVK9nVw" target="_blank" rel="noopener noreferrer" className={styles.snsCard} style={{ background: '#000' }}>
+            <a href="https://x.com/dokkyo_men_lax?s=21&t=PdKSOHTH7r38zAycVK9nVw" target="_blank" rel="noopener noreferrer" className={styles.snsCard} style={{ background: 'linear-gradient(135deg, #1DA1F2, #0d8bd9)' }}>
               <h3>X (Twitter)</h3>
               <p>@dokkyo_men_lax</p>
             </a>
             {/* TikTok */}
-            <a href="https://www.tiktok.com/@blitz.lax?_r=1&_t=ZS-92I0fG8EHpP" target="_blank" rel="noopener noreferrer" className={styles.snsCard} style={{ background: '#000' }}>
+            <a href="https://www.tiktok.com/@blitz.lax?_r=1&_t=ZS-92I0fG8EHpP" target="_blank" rel="noopener noreferrer" className={styles.snsCard} style={{ background: 'linear-gradient(135deg, #ff0050, #00f2ea)' }}>
               <h3>TikTok</h3>
               <p>@blitz.lax</p>
             </a>

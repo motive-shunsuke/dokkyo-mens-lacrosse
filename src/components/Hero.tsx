@@ -30,17 +30,29 @@ export const Hero = () => {
                     >
                         <motion.div
                             className={styles.openingBolt}
-                            initial={{ scaleY: 0 }}
-                            animate={{ scaleY: [0, 1, 1, 0] }}
-                            transition={{ duration: 0.4, times: [0, 0.4, 0.5, 1] }}
-                        />
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: [0, 1, 1, 0] }}
+                            transition={{ duration: 0.5, times: [0, 0.3, 0.4, 1] }}
+                        >
+                            <svg viewBox="0 0 100 1000" preserveAspectRatio="none">
+                                <motion.path
+                                    d="M50,0 L45,200 L55,200 L48,400 L58,400 L52,600 L60,600 L50,1000"
+                                    stroke="#fff"
+                                    strokeWidth="3"
+                                    fill="none"
+                                    initial={{ pathLength: 0 }}
+                                    animate={{ pathLength: 1 }}
+                                    transition={{ duration: 0.2, ease: "easeIn" }}
+                                />
+                            </svg>
+                        </motion.div>
                         <motion.div
                             className={styles.openingLogo}
                             initial={{ opacity: 0, scale: 0.8 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ delay: 0.3, duration: 0.2, type: 'spring' }}
                         >
-                            DOKKYO<br />BLITZ
+                            DOKKYO<br />MEN'S LACROSSE
                         </motion.div>
                     </motion.div>
                 )}
@@ -56,7 +68,7 @@ export const Hero = () => {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                 >
                     <span>DOKKYO MEN'S LACROSSE</span>
-                    覇氣
+                    BLITZ
                 </motion.h1>
             </div>
 
