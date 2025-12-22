@@ -149,4 +149,45 @@
         font-size: 5vw;
         letter-spacing: 0.3em;
     }
+
+    .openingLogo {
+        font-size: 3rem;
+    }
+}
+
+/* Opening Sequence */
+.openingOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.openingBolt {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 6px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 0 30px #fff, 0 0 60px var(--color-accent);
+    transform-origin: top;
+    transform: translateX(-50%) scaleY(0);
+}
+
+.openingLogo {
+    font-family: var(--font-oswald);
+    font-size: 5rem;
+    color: #fff;
+    z-index: 10000;
+    opacity: 0;
+    letter-spacing: 0.5rem;
+    text-shadow: 0 0 30px rgba(139, 92, 246, 0.8);
+    text-align: center;
 }
