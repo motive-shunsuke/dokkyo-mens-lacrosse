@@ -52,7 +52,7 @@ export const Hero = () => {
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ delay: 0.3, duration: 0.2, type: 'spring' }}
                         >
-                            DOKKYO<br />MEN'S LACROSSE
+                            <img src="/images/blitz-logo.png" alt="DOKKYO BLITZ" style={{ maxWidth: '400px', width: '80vw' }} />
                         </motion.div>
                     </motion.div>
                 )}
