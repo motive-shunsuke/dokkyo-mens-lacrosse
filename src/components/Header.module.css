@@ -84,6 +84,13 @@
     transform: translateX(0);
 }
 
+.mobileNavLink {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
     .navDesktop {
         display: flex;

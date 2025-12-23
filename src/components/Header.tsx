@@ -19,7 +19,7 @@ export const Header = () => {
 
     return (
         <header className={styles.header}>
-            <div className={styles.container} style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div className={styles.container}>
                 <Link href="/" className={styles.logo}>
                     DOKKYO <span>BLITZ</span>
                 </Link>
@@ -45,14 +45,12 @@ export const Header = () => {
                     {isOpen ? <X size={28} /> : <Menu size={28} />}
                 </button>
 
-                {/* Mobile Menu */}
                 <div className={`${styles.mobileMenu} ${isOpen ? styles.open : ''}`}>
                     {NAV_ITEMS.map((item) => (
                         <Link
                             key={item.label}
                             href={item.href}
-                            className={styles.navLink}
-                            style={{ fontSize: '1.5rem' }}
+                            className={styles.mobileNavLink}
                             onClick={() => setIsOpen(false)}
                         >
                             {item.label}

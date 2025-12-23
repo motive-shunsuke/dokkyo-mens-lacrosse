@@ -1,13 +1,16 @@
 :root {
-  --color-primary: #4e008e; /* Dokkyo Purple approx - deep/strong */
+  --color-primary: #4e008e;
+  /* Dokkyo Purple approx - deep/strong */
   --color-primary-light: #7c43bd;
-  --color-accent: #fbbf24; /* Lightning Yellow */
+  --color-accent: #fbbf24;
+  /* Lightning Yellow */
   --color-accent-glow: #fbbf24;
-  --color-bg: #0f0518; /* Very dark purple/black */
+  --color-bg: #0f0518;
+  /* Very dark purple/black */
   --color-bg-sub: #1a0b2e;
   --color-text: #f3f4f6;
   --color-text-muted: #9ca3af;
-  
+
   --font-oswald: var(--font-oswald);
   --font-roboto: var(--font-roboto);
 }
@@ -27,7 +30,12 @@ body {
   font-family: var(--font-roboto), sans-serif;
 }
 
-h1, H2, h3, h4, h5, h6 {
+h1,
+H2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-oswald), sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -58,7 +66,8 @@ a {
   background-color: var(--color-accent);
   color: #000;
   padding: 1rem 2rem;
-  border-radius: 0; /* Sharp edges for cool look */
+  border-radius: 0;
+  /* Sharp edges for cool look */
   font-weight: bold;
   font-family: var(--font-oswald);
   text-transform: uppercase;
@@ -72,4 +81,10 @@ a {
 .btn-cta:hover {
   transform: scale(1.05);
   background-color: #fcd34d;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.5rem;
+  }
 }

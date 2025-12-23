@@ -24,6 +24,12 @@
     color: var(--color-accent);
 }
 
+.address {
+    color: #888;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
 .social {
     display: flex;
     gap: 1rem;

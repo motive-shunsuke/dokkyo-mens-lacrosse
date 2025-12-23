@@ -10,7 +10,7 @@ export const Footer = () => {
             <div className={styles.container}>
                 <div className={styles.brand}>
                     <h2>DOKKYO <span>BLITZ</span></h2>
-                    <p style={{ color: '#888', fontSize: '0.9rem' }}>
+                    <p className={styles.address}>
                         獨協大学男子ラクロス部<br />
                         埼玉県草加市学園町1-1
                     </p>

@@ -70,18 +70,19 @@
     border-radius: 2px;
 }
 
-/* CONCEPT */
 .conceptSection {
     padding: 10rem 1rem;
-    background: fixed linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/images/concept-bg.jpg') center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/images/concept-bg.jpg') center/cover;
+    background-attachment: fixed;
     text-align: center;
     position: relative;
+    overflow: hidden;
 }
 
 .conceptText {
-    font-size: 5rem;
+    font-size: 8rem;
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.05);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -89,6 +90,8 @@
     width: 100%;
     pointer-events: none;
     font-family: var(--font-oswald);
+    white-space: nowrap;
+    z-index: 1;
 }
 
 .conceptMain {
@@ -97,6 +100,17 @@
     font-size: 2.5rem;
     font-weight: bold;
     text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    margin-bottom: 2rem;
+}
+
+.conceptDescription {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #ccc;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 /* SNS */
@@ -133,11 +147,31 @@
     opacity: 0.8;
 }
 
-@media (max-width: 768px) {
-    .snsGrid {
-        grid-template-columns: 1fr;
-    }
+/* JOIN THE TEAM */
+.joinSection {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('/images/join-team-bg.jpg') center/cover;
+    background-attachment: fixed;
 }
+
+.joinContent {
+    text-align: center;
+    padding: 6rem 1rem;
+}
+
+.joinHeading {
+    font-family: var(--font-oswald);
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+
+.joinDescription {
+    margin-bottom: 2.5rem;
+    font-size: 1.25rem;
+    color: #eee;
+}
+
+/* Moved to bottom media query */
 
 /* IMPACT */
 .impactSection {
@@ -215,15 +249,83 @@
 }
 
 @media (max-width: 768px) {
+    .section {
+        padding: 4rem 1rem;
+    }
+
+    .sectionTitle {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .conceptSection {
+        padding: 6rem 1rem;
+        background-attachment: scroll;
+    }
+
+    .conceptText {
+        font-size: 4rem;
+    }
+
+    .conceptMain {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+        padding: 0 1rem;
+        word-break: keep-all;
+    }
+
+    .conceptDescription {
+        font-size: 0.95rem;
+        line-height: 1.8;
+        padding: 0 1rem;
+        text-align: left;
+    }
+
+    .joinSection {
+        background-attachment: scroll;
+        background-position: center 30%;
+        /* Focus more on the upper part where faces might be */
+    }
+
+    .joinContent {
+        padding: 4rem 1rem;
+    }
+
+    .joinHeading {
+        font-size: 1.8rem;
+    }
+
+    .joinDescription {
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+    }
+
     .impactGrid {
-        gap: 3rem;
+        gap: 2rem;
+        margin-top: 2rem;
     }
 
     .statNumber {
-        font-size: 3.5rem;
+        font-size: 3rem;
+    }
+
+    .statLabel {
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
     }
 
     .videoGrid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+
+    .snsGrid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .snsCard {
+        padding: 1.5rem;
     }
 }

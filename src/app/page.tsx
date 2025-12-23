@@ -38,12 +38,12 @@ export default function Home() {
       {/* CONCEPT - OUR PHILOSOPHY */}
       <section className={styles.conceptSection}>
         <div className="container" style={{ maxWidth: '1000px', textAlign: 'center' }}>
-          <h2 className={styles.sectionTitle} style={{ marginBottom: '3rem' }}>OUR <span>PHILOSOPHY</span></h2>
+          <h2 className={styles.sectionTitle}>OUR <span>PHILOSOPHY</span></h2>
           <div className={styles.conceptText}>覇氣</div>
-          <div className={styles.conceptMain} style={{ marginBottom: '2rem' }}>
+          <div className={styles.conceptMain}>
             圧倒する、空気を変える、強い主体性を持つ。
           </div>
-          <p style={{ fontSize: '1.1rem', lineHeight: '1.8', color: '#ccc', maxWidth: '800px', margin: '0 auto' }}>
+          <p className={styles.conceptDescription}>
             私たちは「覇氣」をスローガンに掲げ、フィールド内外で圧倒的な存在感を示します。<br />
             試合では相手を圧倒し、チームの空気を変え、一人ひとりが強い主体性を持って行動する。<br />
             それが獨協大学男子ラクロス部BLITZの誇りです。
@@ -76,13 +76,10 @@ export default function Home() {
       </section>
 
       {/* RECRUIT CTA */}
-      <section className={styles.section} style={{
-        background: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(/images/join-team-bg.jpg) center/cover',
-        backgroundAttachment: 'fixed'
-      }}>
-        <div className="container" style={{ textAlign: 'center', padding: '4rem 1rem' }}>
-          <h2 style={{ fontFamily: 'var(--font-oswald)', fontSize: '3rem', marginBottom: '1rem' }}>JOIN THE TEAM</h2>
-          <p style={{ marginBottom: '2rem', fontSize: '1.2rem' }}>初心者から日本一へ。君の挑戦を待っている。</p>
+      <section className={`${styles.section} ${styles.joinSection}`}>
+        <div className={`container ${styles.joinContent}`}>
+          <h2 className={styles.joinHeading}>JOIN THE TEAM</h2>
+          <p className={styles.joinDescription}>初心者から日本一へ。君の挑戦を待っている。</p>
           <Link href="/recruit" className="btn-cta">
             RECRUIT PAGE
           </Link>

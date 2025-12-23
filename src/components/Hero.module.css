@@ -123,7 +123,6 @@
     position: relative;
     z-index: 5;
     text-align: center;
-    mix-blend-mode: screen;
 }
 
 .title {
@@ -178,6 +177,15 @@
     letter-spacing: 0.02em;
 }
 
+.messageLine {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.messageLine:last-child {
+    margin-bottom: 0;
+}
+
 .scrollDown {
     position: absolute;
     bottom: 2rem;
@@ -206,21 +214,6 @@
 
     60% {
         transform: translate(-50%, -5px);
-    }
-}
-
-@media (max-width: 768px) {
-    .title {
-        font-size: 15vw;
-    }
-
-    .title span {
-        font-size: 5vw;
-        letter-spacing: 0.3em;
-    }
-
-    .openingLogo {
-        font-size: 3rem;
     }
 }
 
@@ -271,16 +264,36 @@
 
 @media (max-width: 768px) {
     .title {
-        font-size: 15vw;
+        font-size: 11vw;
+        margin-bottom: 1.5rem;
     }
 
     .title span {
-        font-size: 5vw;
-        letter-spacing: 0.3em;
+        font-size: 3.5vw;
+        letter-spacing: 0.2em;
+        margin-bottom: 0.5rem;
+    }
+
+    .achievement {
+        font-size: 1.1rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .message {
+        font-size: 0.9rem;
+        line-height: 1.7;
+        padding: 0 1.5rem;
+        letter-spacing: 0.01em;
+        font-weight: 500;
+    }
+
+    .messageLine {
+        display: block;
+        margin-bottom: 0.8rem;
     }
 
     .openingLogo {
-        font-size: 3rem;
+        font-size: 2.22rem;
     }
 
     .openingLogo img {

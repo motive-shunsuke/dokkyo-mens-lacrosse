@@ -124,10 +124,10 @@ export const Hero = () => {
                 >
                     <p className={styles.achievement}>関東一部リーグ所属</p>
                     <p className={styles.message}>
-                        実績も推薦も、高校までの過去なんて関係ない。<br />
-                        大学から始めて日本代表さえ狙えるこの唯一のスポーツにおいて、<br />
-                        必要なのは経験ではなく、サークルじゃ燃え尽きない「その熱量」だけ。<br />
-                        すべてを捨ててゼロになり、本気で日本一を狙わないか。
+                        <span className={styles.messageLine}>実績も推薦も、高校までの過去なんて関係ない。</span>
+                        <span className={styles.messageLine}>大学から始めて日本代表さえ狙えるこの唯一のスポーツにおいて、</span>
+                        <span className={styles.messageLine}>必要なのは経験ではなく、サークルじゃ燃え尽きない「その熱量」だけ。</span>
+                        <span className={styles.messageLine}>すべてを捨ててゼロになり、本気で日本一を狙わないか。</span>
                     </p>
                 </motion.div>
             </div>
