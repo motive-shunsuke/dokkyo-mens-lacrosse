@@ -123,6 +123,9 @@
     position: relative;
     z-index: 5;
     text-align: center;
+    width: 100%;
+    padding: 0 5vw;
+    box-sizing: border-box;
 }
 
 .title {
@@ -168,10 +171,11 @@
 }
 
 .message {
-    font-size: clamp(1rem, 1.2vw, 1.2rem);
+    font-size: clamp(0.9rem, 1.2vw, 1.2rem);
     color: rgba(255, 255, 255, 0.95);
     line-height: 1.8;
-    max-width: 1100px;
+    max-width: 900px;
+    width: 100%;
     margin: 0 auto;
     font-weight: 400;
     letter-spacing: 0.02em;

@@ -106,11 +106,11 @@ export const Hero = () => {
                             className={styles.openingLogo}
                             initial={{ opacity: 0, scale: 0.8, x: '-50%', y: '-50%', left: '50%', top: '50%' }}
                             animate={isLogoMoving ? {
-                                left: 'max(1rem, calc((100vw - 1200px) / 2 + 1rem))',
+                                left: 'max(2rem, calc((100vw - 1440px) / 2 + 2rem))',
                                 top: '40px',
                                 x: '0%',
                                 y: '-50%',
-                                scale: 0.22,
+                                scale: 0.12,
                                 opacity: 1
                             } : {
                                 opacity: 1,
@@ -121,7 +121,7 @@ export const Hero = () => {
                                 y: '-50%'
                             }}
                             transition={isLogoMoving ? {
-                                duration: 1.0,
+                                duration: 1.2,
                                 ease: [0.65, 0, 0.35, 1]
                             } : {
                                 delay: 0.5,
