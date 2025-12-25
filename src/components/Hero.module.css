@@ -191,9 +191,9 @@
 /* English Title */
 .englishTitle {
     display: block;
-    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-size: clamp(1.8rem, 5vw, 3.5rem);
     font-family: var(--font-oswald);
-    font-weight: 700;
+    font-weight: 800;
     color: var(--color-accent);
     letter-spacing: 0.2em;
     margin-bottom: 0.5rem;
@@ -203,8 +203,8 @@
 /* Dokkyo Men's Lacrosse Text */
 .japaneseTitle {
     display: block;
-    font-size: clamp(2.5rem, 6vw, 5rem);
-    font-weight: 700;
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 900;
     letter-spacing: 0.1em;
     color: #fff;
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
@@ -214,12 +214,12 @@
 
     /* Mobile text adjustments */
     .japaneseTitle {
-        font-size: clamp(2rem, 10vw, 3.5rem);
+        font-size: clamp(2.5rem, 12vw, 4.5rem);
         line-height: 1.2;
     }
 
     .englishTitle {
-        font-size: clamp(1.2rem, 5vw, 2rem);
+        font-size: clamp(1.5rem, 6vw, 2.5rem);
         letter-spacing: 0.1em;
     }
 }
@@ -234,8 +234,8 @@
 .achievement {
     display: inline-block;
     color: #fff;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: 500;
     letter-spacing: 0.1em;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid var(--color-accent);
@@ -245,7 +245,7 @@
 
 @media (max-width: 768px) {
     .achievement {
-        font-size: 1rem;
+        font-size: 0.9rem;
         /* Smaller "League" text */
         padding-bottom: 0.2rem;
         margin-bottom: 1rem;
