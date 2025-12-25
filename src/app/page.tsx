@@ -1,8 +1,11 @@
 import { Hero } from "@/components/Hero";
 import styles from './Home.module.css';
 import Link from 'next/link';
+import { getLatestAmebaPosts } from '@/lib/blog';
 
-export default function Home() {
+export default async function Home() {
+  const posts = await getLatestAmebaPosts(3);
+
   return (
     <>
       <Hero />
@@ -12,25 +15,21 @@ export default function Home() {
         <div className="container">
           <h2 className={styles.sectionTitle}>LATEST <span>TOPICS</span></h2>
           <div className={styles.topicsGrid}>
-            {[
-              { date: '2025.12.10', title: '【試合結果】関東1部リーグ 5位タイ獲得', tag: 'GAME' },
-              { date: '2025.11.25', title: '新チーム始動！2026年度スローガンは「覇氣」', tag: 'NEWS' },
-              { date: '2025.11.01', title: '【新入生向け】体験会の日程が決まりました', tag: 'RECRUIT' },
-            ].map((topic, i) => (
-              <Link href="/blog" key={i} className={styles.topicCard}>
-                <div className={styles.topicImage} style={{ background: `url(/images/topic-${i + 1}.jpg) center/cover` }} />
+            {posts.map((post, i) => (
+              <a href={post.link} key={i} target="_blank" rel="noopener noreferrer" className={styles.topicCard}>
+                <div className={styles.topicImage} style={{ background: `url(/images/topic-${(i % 3) + 1}.jpg) center/cover` }} />
                 <div className={styles.topicContent}>
-                  <div className={styles.topicDate}>{topic.date}</div>
-                  <h3 className={styles.topicTitle}>{topic.title}</h3>
-                  <span className={styles.topicTag}>{topic.tag}</span>
+                  <div className={styles.topicDate}>{post.date}</div>
+                  <h3 className={styles.topicTitle}>{post.title}</h3>
+                  <span className={styles.topicTag}>{post.tag}</span>
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
           <div style={{ textAlign: 'center', marginTop: '3rem' }}>
-            <Link href="/blog" className="btn-cta" style={{ background: 'transparent', border: '1px solid #fff', color: '#fff' }}>
-              VIEW ALL
-            </Link>
+            <a href="https://ameblo.jp/dokkyo-mens-lacrosse/" target="_blank" rel="noopener noreferrer" className="btn-cta" style={{ background: 'transparent', border: '1px solid #fff', color: '#fff' }}>
+              VIEW ALL BLOGS
+            </a>
           </div>
         </div>
       </section>

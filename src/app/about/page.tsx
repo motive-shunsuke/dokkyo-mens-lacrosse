@@ -1,10 +1,8 @@
+"use client";
+
+import { motion } from 'framer-motion';
 import styles from './About.module.css';
 import teamInfo from '@/data/teamInfo.json';
-
-export const metadata = {
-    title: 'ABOUT | DOKKYO BLITZ',
-    description: '獨協大学男子ラクロス部について。理念、スローガン、チーム紹介。',
-};
 
 export default function AboutPage() {
     return (
@@ -92,18 +90,31 @@ export default function AboutPage() {
                 </div>
             </section>
 
-            {/* Origin Section (Placeholder) */}
-            <section className={styles.section}>
+            {/* Origin Section */}
+            <section className={styles.originSection}>
                 <div className="container">
-                    <h2 className={styles.sectionTitle}>ORIGIN</h2>
                     <div className={styles.originContent}>
-                        <p className={styles.originText}>
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.5, filter: 'brightness(2)' }}
+                            whileInView={{ opacity: 1, scale: 1, filter: 'brightness(1)' }}
+                            transition={{ duration: 0.2, type: 'spring', stiffness: 200 }}
+                            className={styles.originLogo}
+                        >
+                            BLITZ
+                        </motion.div>
+                        <motion.div
+                            initial={{ opacity: 0, x: -50 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.8, delay: 0.2 }}
+                            className={styles.originText}
+                        >
                             なぜ「BLITZ」なのか？<br />
-                            その名の通り、稲妻のような衝撃とスピードでフィールドを駆け抜けるスタイルを象徴しています。<br />
-                            <span style={{ color: '#666', fontSize: '0.9rem' }}>
-                                [チーム名の由来や歴史についての詳細テキストが入ります。創部からの歴史や、BLITZという名前に込められた先輩たちの想いなどを掲載します。]
-                            </span>
-                        </p>
+                            その名の通り、<span className={styles.originHighlight}>稲妻（BLITZ）</span>のような衝撃とスピードでフィールドを駆け抜け、観る者を圧倒する。<br /><br />
+                            創部以来、私たちは常に挑戦者であり続けてきました。<br />
+                            一瞬の閃き、一迅の風。私たちのプレーは、停滞した空気を切り裂き、勝利への道を照らし出す光となります。<br /><br />
+                            この名前には、先輩たちが築き上げてきた歴史と、<span className={styles.originHighlight}>「独創的であり、かつ圧倒的であれ」</span>という強い想いが込められています。<br />
+                            BLITZ――その響きと共に、私たちは新たな伝説をフィールドに刻み込みます。
+                        </motion.div>
                     </div>
                 </div>
             </section>
