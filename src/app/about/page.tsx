@@ -46,31 +46,45 @@ export default function AboutPage() {
                 </div>
             </section>
 
-            {/* Message Section (Placeholder) */}
+            {/* Coach Section */}
             <section className={styles.section}>
                 <div className="container">
-                    <h2 className={styles.sectionTitle}>MESSAGE</h2>
+                    <h2 className={styles.sectionTitle}>COACH INTRODUCTION</h2>
                     <div className={styles.messageGrid}>
+                        {/* Kishi Head Coach */}
                         <div className={styles.messageCard}>
-                            <div className={styles.messageRole}>CAPTAIN</div>
-                            <div className={styles.messageName}>関根 駿</div>
+                            <div className={styles.messageHeader}>
+                                <img src="/images/岸さん.jpg" alt="岸 ヘッドコーチ" className={styles.messageImage} />
+                                <div className={styles.messageText}>
+                                    <div className={styles.messageRole}>HEAD COACH</div>
+                                    <h3 className={styles.messageName}>岸 啓之</h3>
+                                </div>
+                            </div>
                             <div className={styles.messageBody}>
                                 <p>
-                                    2026年度主将を務めます、関根です。
-                                    今年のチームは「覇氣」をスローガンに掲げ、Final4進出という高い目標に向かって日々邁進しています。
+                                    一橋大学出身。2021年より獨協大学男子ラクロス部のコーチに就任すると、その卓越した指導力でチームを変革。獨協大学を史上初の「Final4」進出へと導いた実績を持つ。
                                 </p>
-                                <p style={{ marginTop: '1rem', color: '#666' }}>
-                                    [ここに主将からの熱いメッセージが入ります。これまでの経験、今年のチームへの想い、新入生への言葉など。テキストは現在準備中です。]
+                                <p style={{ marginTop: '0.5rem' }}>
+                                    その手腕はまさに名将。今シーズンもヘッドコーチとして指揮を執り、チームをさらなる高みへと導く。
                                 </p>
                             </div>
                         </div>
 
+                        {/* Soma Coach */}
                         <div className={styles.messageCard}>
-                            <div className={styles.messageRole}>HEAD COACH</div>
-                            <div className={styles.messageName}>[COACH NAME]</div>
+                            <div className={styles.messageHeader}>
+                                <img src="/images/相馬さん.jpg" alt="相馬 コーチ" className={styles.messageImage} />
+                                <div className={styles.messageText}>
+                                    <div className={styles.messageRole}>COACH</div>
+                                    <h3 className={styles.messageName}>相馬 啓太</h3>
+                                </div>
+                            </div>
                             <div className={styles.messageBody}>
-                                <p style={{ color: '#666' }}>
-                                    [ここにヘッドコーチからのメッセージが入ります。チームの育成方針、ラクロスの楽しさ、学生たちへの期待などについて語られます。テキストは現在準備中です。]
+                                <p>
+                                    2021年卒。獨協大学時代は主将として強力なリーダーシップを発揮し、関東ユースにも選出された実力者。
+                                </p>
+                                <p style={{ marginTop: '0.5rem' }}>
+                                    現在は社会人クラブチーム「川崎ファルコンズ」に所属し、トップレベルで活躍中。現役選手としての高い技術と、主将として培った経験をチームに還元する。
                                 </p>
                             </div>
                         </div>

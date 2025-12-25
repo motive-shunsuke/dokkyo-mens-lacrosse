@@ -72,21 +72,43 @@
     background: rgba(255, 255, 255, 0.02);
     padding: 2rem;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.messageHeader {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1rem;
+}
+
+.messageImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--color-accent);
+}
+
+.messageText {
+    flex: 1;
 }
 
 .messageRole {
     font-family: var(--font-oswald);
     color: var(--color-accent);
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 1.1rem;
 }
 
 .messageName {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
     color: #fff;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 1rem;
+    margin: 0;
 }
 
 .messageBody {
