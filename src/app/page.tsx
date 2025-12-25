@@ -17,7 +17,7 @@ export default async function Home() {
           <div className={styles.topicsGrid}>
             {posts.map((post, i) => (
               <a href={post.link} key={i} target="_blank" rel="noopener noreferrer" className={styles.topicCard}>
-                <div className={styles.topicImage} style={{ background: `url(/images/topic-${(i % 3) + 1}.jpg) center/cover` }} />
+                <div className={styles.topicImage} style={{ background: `url(${post.image}) center/cover` }} />
                 <div className={styles.topicContent}>
                   <div className={styles.topicDate}>{post.date}</div>
                   <h3 className={styles.topicTitle}>{post.title}</h3>

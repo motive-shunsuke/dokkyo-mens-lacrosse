@@ -27,7 +27,7 @@ export default async function BlogPage() {
                             className={styles.postCard}
                         >
                             <img
-                                src={`/images/topic-${(i % 3) + 1}.jpg`}
+                                src={post.image}
                                 alt={post.title}
                                 className={styles.postImage}
                             />

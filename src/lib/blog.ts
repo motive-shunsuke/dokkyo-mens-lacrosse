@@ -41,6 +41,11 @@ export async function getLatestAmebaPosts(limit: number = 3): Promise<BlogPost[]
                 .trim()
                 .slice(0, 100) + '...';
 
+            // Extract the first image URL from description
+            // Ameba images usually look like <img src="...image.ameba.jp..." ...>
+            const imageMatch = description.match(/<img[^>]+src=["']([^"']+)["']/);
+            const image = imageMatch ? imageMatch[1] : '/images/topic-1.jpg'; // Fallback to placeholder if no image found
+
             // Determine tag based on title or just default to 'BLOG'
             let tag = 'BLOG';
             if (title.includes('試合結果')) tag = 'GAME';
@@ -53,7 +58,7 @@ export async function getLatestAmebaPosts(limit: number = 3): Promise<BlogPost[]
                 date: formattedDate,
                 tag,
                 excerpt,
-                image: '/images/topic-1.jpg' // Default image
+                image
             };
         });
     } catch (error) {
