@@ -52,7 +52,7 @@ export default function AboutPage() {
                         {/* Kishi Head Coach */}
                         <div className={styles.messageCard}>
                             <div className={styles.messageHeader}>
-                                <img src="/images/岸さん.jpg" alt="岸 ヘッドコーチ" className={styles.messageImage} />
+                                <img src="/images/kishi.jpg" alt="岸 ヘッドコーチ" className={styles.messageImage} />
                                 <div className={styles.messageText}>
                                     <div className={styles.messageRole}>HEAD COACH</div>
                                     <h3 className={styles.messageName}>岸 啓之</h3>
