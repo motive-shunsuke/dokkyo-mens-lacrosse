@@ -121,14 +121,10 @@
         background: var(--color-accent);
     }
 
-    .menuItem:nth-child(5) .menuTitle {
-        color: #000;
-        text-shadow: none;
-    }
-
+    .menuItem:nth-child(5) .menuTitle,
     .menuItem:nth-child(5) .menuSubtitle {
-        color: #000;
-        text-shadow: none;
+        color: #fff;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
     }
 
     /* Restore background images for mobile */
