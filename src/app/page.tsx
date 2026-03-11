@@ -84,6 +84,20 @@ export default async function Home() {
           </Link>
         </div>
       </section>
+
+      {/* OB INTRODUCTION */}
+      <section className={`${styles.section} ${styles.obSection}`}>
+        <div className="container" style={{ textAlign: 'center' }}>
+          <h2 className={styles.sectionTitle}>OB <span>INTRODUCTION</span></h2>
+          <p className={styles.obDescription}>
+            獨協ラクロス部OBからのメッセージ。<br />
+            先輩たちの経験と想いを知る。
+          </p>
+          <Link href="/ob" className="btn-cta">
+            VIEW OB MESSAGE
+          </Link>
+        </div>
+      </section>
     </>
   );
 }
