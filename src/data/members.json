@@ -152,44 +152,12 @@
     "message": "元気に頑張ります♪"
   },
   {
-    "name": "面来　咲羽",
-    "grade": 3,
-    "department": "外国語学部交流文化学科",
-    "highSchool": "獨協埼玉高等学校",
-    "position": "MG",
-    "message": "チームのために全力でサポートします！"
-  },
-  {
-    "name": "佐藤　香春",
-    "grade": 3,
-    "department": "外国語学部交流文化学科",
-    "highSchool": "獨協埼玉高等学校",
-    "position": "MG",
-    "message": "自分らしく頑張ります！"
-  },
-  {
     "name": "清水　さくら",
     "grade": 3,
     "department": "経済学部経営学科",
     "highSchool": "川口高校",
     "position": "MG",
     "message": "チームに必要とされる存在になります！"
-  },
-  {
-    "name": "池上　暖人",
-    "grade": 2,
-    "department": "外国語学部ドイツ語学科",
-    "highSchool": "International school Augsburg",
-    "position": "SSDM",
-    "message": "Einfach Stärker werden"
-  },
-  {
-    "name": "榎本　慎太",
-    "grade": 2,
-    "department": "経済学部経済学科",
-    "highSchool": "東亜学園高等学校",
-    "position": "LDF",
-    "message": "下剋上します！"
   },
   {
     "name": "海老原　周真",
@@ -248,14 +216,6 @@
     "message": "二刀流極めます"
   },
   {
-    "name": "櫻井　直人",
-    "grade": 2,
-    "department": "外国語学部ドイツ語学科",
-    "highSchool": "千早高校",
-    "position": "LDF",
-    "message": "邁進してまいります"
-  },
-  {
     "name": "立川　大輔",
     "grade": 2,
     "department": "経済学部経営学科",
@@ -272,36 +232,12 @@
     "message": "覇氣出す4年間にします！"
   },
   {
-    "name": "佃　祐誠",
-    "grade": 2,
-    "department": "外国語学部交流文化学科",
-    "highSchool": "成立学園高校",
-    "position": "FO",
-    "message": "ブレイクします"
-  },
-  {
-    "name": "中村　伊吹",
-    "grade": 2,
-    "department": "外国語学部交流文化学科",
-    "highSchool": "千葉明徳高等学校",
-    "position": "MF",
-    "message": "1発カマします"
-  },
-  {
     "name": "原嶋　優輝",
     "grade": 2,
     "department": "法学部法律学科",
     "highSchool": "埼玉県立伊奈学園総合高校",
     "position": "MF",
     "message": "ビビりません！"
-  },
-  {
-    "name": "菖蒲　琴音",
-    "grade": 2,
-    "department": "外国語学部ドイツ語学科",
-    "highSchool": "致道館高校",
-    "position": "TR",
-    "message": "精一杯頑張ります"
   },
   {
     "name": "古村　葵",
@@ -326,14 +262,6 @@
     "highSchool": "跡見学園高等学校",
     "position": "AS",
     "message": "責任持って頑張ります"
-  },
-  {
-    "name": "高橋　舞圭",
-    "grade": 2,
-    "department": "外国語学部交流文化学科",
-    "highSchool": "流山おおたかの森高校",
-    "position": "TR",
-    "message": "チームのために全力を尽くします。"
   },
   {
     "name": "村田　絢香",
