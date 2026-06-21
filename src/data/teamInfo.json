@@ -6,6 +6,48 @@
     "vs中央大学　4-4　引分け",
     "vs明治学院大学　4-7　敗北"
   ],
+  "leagueSchedule": [
+    {
+      "game": 1,
+      "date": "7月12日(日)",
+      "opponent": "早稲田大学",
+      "time": null,
+      "venue": null,
+      "status": "未定"
+    },
+    {
+      "game": 2,
+      "date": "8月11日(火)",
+      "opponent": "慶應義塾大学",
+      "time": "14:20 FO",
+      "venue": "駒沢オリンピック公園第一球技場",
+      "status": "確定"
+    },
+    {
+      "game": 3,
+      "date": "8月22日(土)",
+      "opponent": "中央大学",
+      "time": null,
+      "venue": null,
+      "status": "未定"
+    },
+    {
+      "game": 4,
+      "date": "8月29日(土)",
+      "opponent": "明治大学",
+      "time": "14:40 FO",
+      "venue": "駒沢オリンピック公園第二球技場",
+      "status": "確定"
+    },
+    {
+      "game": 5,
+      "date": null,
+      "opponent": "成蹊大学",
+      "time": null,
+      "venue": null,
+      "status": "未定"
+    }
+  ],
   "schedule": [
     {
       "month": "1月",
