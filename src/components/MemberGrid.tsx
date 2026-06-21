@@ -21,7 +21,7 @@ export const MemberGrid = ({ members }: { members: Member[] }) => {
     const [selectedPos, setSelectedPos] = useState<string>('ALL');
 
     // Main categories requested by user
-    const categories = ['OF', 'MF', 'DF', 'G', 'MG', 'TR'];
+    const categories = ['OF', 'MF', 'DF', 'G', 'PL', 'MG', 'TR'];
 
     // Mapping logic: Raw Position -> Category
     const getCategory = (pos: string) => {
@@ -31,6 +31,7 @@ export const MemberGrid = ({ members }: { members: Member[] }) => {
         if (pos.includes('G')) return 'G';
         if (pos.includes('TR')) return 'TR';
         if (pos.includes('MG') || pos.includes('AS')) return 'MG'; // AS -> MG
+        if (pos.includes('PL')) return 'PL';
 
         // Default/Remaining mappings
         // SSDM -> MF (Short Stick Defensive Midfielder)

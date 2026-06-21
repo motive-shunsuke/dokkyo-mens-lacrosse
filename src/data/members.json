@@ -144,6 +144,14 @@
     "message": "チームに貢献します"
   },
   {
+    "name": "近藤　陽斗",
+    "grade": 3,
+    "department": "経済学部経済学科",
+    "highSchool": "新津高校",
+    "position": "SSDM",
+    "message": "千切ります"
+  },
+  {
     "name": "岡野　桃奈",
     "grade": 3,
     "department": "法学部総合政策学科",
@@ -294,5 +302,181 @@
     "highSchool": "松本県ヶ丘高校",
     "position": "TR",
     "message": "信頼されるTRになります！！"
+  },
+  {
+    "name": "菱沼　颯",
+    "grade": 1,
+    "department": "外国語学部フランス語学科",
+    "highSchool": "朝霞高等学校",
+    "position": "PL",
+    "message": "Je suis le meilleur buteur"
+  },
+  {
+    "name": "北島　逞",
+    "grade": 1,
+    "department": "経済学部経営学科",
+    "highSchool": "越ヶ谷高校",
+    "position": "PL",
+    "message": "ロサンゼルスオリンピック"
+  },
+  {
+    "name": "田村　蓮",
+    "grade": 1,
+    "department": "経済学部国際環境経済学科",
+    "highSchool": "淑徳巣鴨高等学校",
+    "position": "PL",
+    "message": "練習では絶対妥協しません"
+  },
+  {
+    "name": "渡辺　諒人",
+    "grade": 1,
+    "department": "法学部法律学科",
+    "highSchool": "岩倉高校",
+    "position": "PL",
+    "message": "世代最強選手になります"
+  },
+  {
+    "name": "森山　馴琉",
+    "grade": 1,
+    "department": "法学部法律学科",
+    "highSchool": "関東学院六浦高等学校",
+    "position": "PL",
+    "message": "オリンピック出たいです。"
+  },
+  {
+    "name": "西澤　哲平",
+    "grade": 1,
+    "department": "経済学部国際環境経済学科",
+    "highSchool": "東海大学付属高輪台高等学校",
+    "position": "PL",
+    "message": "覚悟なら、誰にも負けない。"
+  },
+  {
+    "name": "山本　大楽",
+    "grade": 1,
+    "department": "外国語学部英語学科",
+    "highSchool": "常葉大学附属菊川高等学校",
+    "position": "PL",
+    "message": "日本一を目指します"
+  },
+  {
+    "name": "佐々木　皓惇",
+    "grade": 1,
+    "department": "経済学部経済学科",
+    "highSchool": "岩手県立宮古高等学校",
+    "position": "PL",
+    "message": "積み重ねの一年、自分と向き合います"
+  },
+  {
+    "name": "青木　康将",
+    "grade": 1,
+    "department": "経済学部国際環境経済学科",
+    "highSchool": "埼玉平成高校",
+    "position": "PL",
+    "message": "ハイTになります"
+  },
+  {
+    "name": "高比良　共祐",
+    "grade": 1,
+    "department": "法学部法律学科",
+    "highSchool": "安田学園",
+    "position": "PL",
+    "message": "一球入魂"
+  },
+  {
+    "name": "関口　時哉",
+    "grade": 1,
+    "department": "外国語学部交流文化学科",
+    "highSchool": "岩倉高校",
+    "position": "PL",
+    "message": "世界にも通じるDFになります"
+  },
+  {
+    "name": "村本　一斗",
+    "grade": 1,
+    "department": "経済学部経済学科",
+    "highSchool": "武蔵丘高校",
+    "position": "PL",
+    "message": "水中から陸上へ"
+  },
+  {
+    "name": "田中　嘉斗",
+    "grade": 1,
+    "department": "法学部法律学科",
+    "highSchool": "東京成徳大学高等学校",
+    "position": "PL",
+    "message": "日本一になります"
+  },
+  {
+    "name": "宮澤　昭仁",
+    "grade": 1,
+    "department": "経済学部経済学科",
+    "highSchool": "修徳高校",
+    "position": "PL",
+    "message": "やる時は本気で全力で頑張ります"
+  },
+  {
+    "name": "今　秋登",
+    "grade": 1,
+    "department": "経済学部国際環境経済学科",
+    "highSchool": "八戸工業大学第二高等学校",
+    "position": "PL",
+    "message": "誰にも負けない体になります"
+  },
+  {
+    "name": "赤城　由希",
+    "grade": 1,
+    "department": "外国語学部ドイツ語学科",
+    "highSchool": "浦和南高等学校",
+    "position": "MG",
+    "message": "マネージャーとしてみんなを支えます！"
+  },
+  {
+    "name": "鈴木　未来",
+    "grade": 1,
+    "department": "外国語学部ドイツ語学科",
+    "highSchool": "茨城高等学校",
+    "position": "MG",
+    "message": "一生懸命頑張ります！"
+  },
+  {
+    "name": "沼澤　怜",
+    "grade": 1,
+    "department": "経済学部経済学科",
+    "highSchool": "浦和南高等学校",
+    "position": "TR",
+    "message": "精一杯頑張ります"
+  },
+  {
+    "name": "田代　朱里",
+    "grade": 1,
+    "department": "経済学部経営学科",
+    "highSchool": "上尾高等学校",
+    "position": "TR",
+    "message": "チームをサポートできるよう頑張ります"
+  },
+  {
+    "name": "茂木　夏穂",
+    "grade": 1,
+    "department": "経済学部経営学科",
+    "highSchool": "都立文京高等学校",
+    "position": "TR",
+    "message": "支える立場として責任をもって頑張ります！"
+  },
+  {
+    "name": "大貫　陽都",
+    "grade": 1,
+    "department": "経済学部経済学科",
+    "highSchool": "烏山高校",
+    "position": "AS",
+    "message": "明るく元気に頑張ります！"
+  },
+  {
+    "name": "石井　果菜",
+    "grade": 1,
+    "department": "国際教養学部言語文化学科",
+    "highSchool": "都立飛鳥高校",
+    "position": "AS",
+    "message": "プレイヤー達と共に団結し成長していきます"
   }
 ]
